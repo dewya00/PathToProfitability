@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Path To Profitability</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <h1>Path To Profitability</h1>
+  <div id="advisorList">
+    <label for="advisor">Select Advisor:</label>
+    <select name="advisor" id="advisor">
+        <option value="...">...</option>
+        <option value="Tanya">Tanya</option>
+        <option value="Kelly">Kelly</option>
+        <option value="Mike">Mike</option>
+     </select>
+  </div>
+
+   <div id="list">
+      <button onclick="increaseCountAuto();inflateBalloon()">Auto Pay</button>
+      <button onclick="increaseCountPaper();inflateBalloon()">Paperless Billing</button>
+      <button onclick="increaseCountEmail();inflateBalloon()">Email address</button>
+      <button onclick="increaseCountSaves();inflateBalloon()">Saves</button>
+   </div>
+
+    <div id="list-count">
+      <div id="list-count-auto">0</div>
+      <div id="list-count-paper">0</div>
+      <div id="list-count-email">0</div>
+      <div id="list-count-saves">0</div>
+    </div>
+
+    <div id="balloon"></div>
+    <div id="confetti"></div>
+  
+
+   <div id="leaderBoard">
+      <table>
+        <caption>LEADERBOARD</caption>
+        <caption>Team Maggie</caption>
+        <tr>
+          <th>Place</th>
+          <th>Advisor</th>
+          <th>Score</th>
+        </tr>
+        <tr>
+          <td>1st </td>
+          <td>Tanya</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td>2nd</td>
+          <td>Kelly</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>3rd</td>
+          <td>Mike</td>
+          <td>4</td>
+        </tr>
+      </table>
+</div>
+
+	<script src="index.js"></script>
+</body>
+</html>

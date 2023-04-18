@@ -1,0 +1,76 @@
+body{
+        background-image: url("profit.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 400%;
+
+       
+}
+h1{
+    text-align: center;
+    
+    text-shadow: 2px 2px yellow;
+}
+#advisorList{
+    position: absolute;
+    top: 20px;
+    
+}
+button{
+    width: 15%;
+    padding: 4px;
+    background-color: yellow;
+    
+    
+}
+#list{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+#list-count{
+    font-size:xx-large;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+#balloon {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 8px;
+    right: 400px;
+    padding: 15px;
+    color: white;
+    font-size: 50px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: green;
+    opacity: 0.9;
+  }
+  #confetti{
+    position: absolute;
+      top: 0;
+      left: 0;
+      width:100%;
+      height: 100%;
+      background-image: url("confetti.gif");
+      background-size: cover;
+      display: none;
+  }
+ 
+  #leaderBoard{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    
+    
+  }
+table, th, td{
+border: 2px solid blue;
+padding: 5px;
+}
+caption{
+    color: red;
+}
